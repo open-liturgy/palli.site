@@ -1,6 +1,6 @@
 # palli.site · പള്ളി
 
-The landing page for [palli.site](https://palli.site), a home for small, free, open-source projects for the Malankara Orthodox Syrian Church. *Palli* means church.
+The landing page for [palli.site](https://palli.site), a home for small, free, open-source projects for the Church. *Palli* means church.
 
 Projects so far:
 

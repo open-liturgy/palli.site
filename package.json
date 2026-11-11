@@ -2,7 +2,7 @@
   "name": "palli.site",
   "version": "1.0.0",
   "private": true,
-  "description": "Landing page for palli.site, a home for open-source projects for the Malankara Orthodox Syrian Church.",
+  "description": "Landing page for palli.site, a home for open-source projects for the Church.",
   "license": "MIT",
   "type": "module",
   "engines": { "node": ">=18" },

@@ -3,9 +3,9 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync } from 'node:fs';
 
 const SITE = 'https://palli.site';
-const TITLE = 'palli.site: open-source projects for the Malankara Orthodox Church';
+const TITLE = 'palli.site: open-source projects for the Church';
 const DESCRIPTION =
-  'palli.site is a home for small, free, open-source projects for the Malankara Orthodox Syrian Church, made for families, Sunday schools and parishes. Start with This Sunday, the weekly page for the coming Sunday.';
+  'palli.site is a home for small, free, open-source projects for the Church, made for families, Sunday schools and parishes. Start with This Sunday, the weekly page for the coming Sunday.';
 const ORG = 'https://github.com/open-liturgy';
 
 const projects = JSON.parse(readFileSync('projects.json', 'utf8'));
@@ -183,16 +183,16 @@ const html = `<!doctype html>
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="palli.site">
 <meta property="og:title" content="palli.site">
-<meta property="og:description" content="Small, free, open-source projects for the Malankara Orthodox Syrian Church. Start with This Sunday, the weekly page for the coming Sunday.">
+<meta property="og:description" content="Small, free, open-source projects for the Church. Start with This Sunday, the weekly page for the coming Sunday.">
 <meta property="og:url" content="${SITE}/">
 <meta property="og:locale" content="en_IN">
 <meta property="og:image" content="${SITE}/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="palli.site, open-source projects for the Malankara Orthodox Church, with a gold arch on deep blue.">
+<meta property="og:image:alt" content="palli.site, open-source projects for the Church, with a gold arch on deep blue.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="palli.site">
-<meta name="twitter:description" content="Small, free, open-source projects for the Malankara Orthodox Syrian Church.">
+<meta name="twitter:description" content="Small, free, open-source projects for the Church.">
 <meta name="twitter:image" content="${SITE}/og.png">
 <script type="application/ld+json">${JSON.stringify(jsonLd).replace(/</g, '\\u003c')}</script>
 <style>${css.replace(/\n\s*/g, '\n').trim()}</style>
@@ -213,7 +213,7 @@ const html = `<!doctype html>
     </nav>
     <div class="hero-copy">
       <p class="label eyebrow">Open source · Made for the parish</p>
-      <h1>Small, open tools for the <em>Malankara Orthodox</em> Church.</h1>
+      <h1>Small, open tools for the <em>Church</em>.</h1>
       <p class="lede"><span lang="ml">പള്ളി</span> means church. This is a home for free projects that a family, a Sunday school or a parish can use every week, made in the open by people who love the Church.</p>
     </div>
   </div>
