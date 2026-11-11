@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "this-sunday",
+    "name": "This Sunday",
+    "nameMl": "ഈ ഞായറാഴ്ച",
+    "url": "https://sunday.palli.site/",
+    "source": "https://github.com/open-liturgy/thissunday",
+    "summary": "One page for the coming Sunday in the Malankara Orthodox Syrian Church: the readings, a short explanation of the Gospel, a reflection and one question for the family. Open it on Saturday evening and be ready for Qurbana in five minutes.",
+    "tags": ["Every week", "English and Malayalam", "Free, no sign-in"],
+    "status": "Live",
+    "ground": "#15183D",
+    "glow": "#F4B544"
+  }
+]
